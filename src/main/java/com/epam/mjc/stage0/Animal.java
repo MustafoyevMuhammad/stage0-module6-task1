@@ -11,31 +11,6 @@ public class Animal {
         this.hasFur = hasFur;
     }
     public String getDescription(){
-        return "This animal is mostly " + color + ". It has " + numberOfPaws +
-                (numberOfPaws == 1 ? " pow":" pows") +
-                " and " + (hasFur ? "a":"no") + " fur.";
-    }
-     public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public int getNumberOfPaws() {
-        return numberOfPaws;
-    }
-
-    public void setNumberOfPaws(int numberOfPaws) {
-        this.numberOfPaws = numberOfPaws;
-    }
-
-    public boolean isHasFur() {
-        return hasFur;
-    }
-
-    public void setHasFur(boolean hasFur) {
-        this.hasFur = hasFur;
+        return "This animal is mostly " + color + ". It has " + numberOfPaws + (numberOfPaws == 1 ? " pow":" pows") + " and " + (hasFur ? "a":"no") + " fur.";
     }
 }
